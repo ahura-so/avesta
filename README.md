@@ -31,6 +31,11 @@ Language features that Avesta still feels a dire need for in C#:
 - [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 - [Negative generic constraints](https://github.com/dotnet/csharplang/discussions/707)
 
+#### Library dependencies: 
+The most notable NuGet dependencies in Avesta, excluding client SDKs of the aforementioned pieces of infrastructure, include:
+- **Vogen**
+- **PolyType**
+
 ### Why NATS:
 
 NATS is Avesta's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs. I claim that it is the greatest modern pub/sub software that's been built.
