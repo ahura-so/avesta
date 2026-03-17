@@ -35,6 +35,10 @@ Language features that Avesta still feels a dire need for in C#:
 The most notable NuGet dependencies in Avesta, excluding client SDKs of the aforementioned pieces of infrastructure, include:
 - **Vogen**
 - **PolyType**
+- **R3**
+- **Polly**
+- **Hot Chocolate**
+- **Green Donut**
 
 ### Why NATS:
 
