@@ -36,9 +36,16 @@ The most notable NuGet dependencies in Avesta, excluding client SDKs of the afor
 - **Vogen**
 - **PolyType**
 - **R3**
+- **NodaTime**
 - **Polly**
+- **Serilog**
 - **Hot Chocolate**
 - **Green Donut**
+In the testing sub-framework:
+- **TUnit**
+- **Bogus**
+- **AutoFixture**
+- **Testcontainers**
 
 ### Why NATS:
 
