@@ -41,6 +41,7 @@ The most notable NuGet dependencies in Avesta, excluding client SDKs of the afor
 - **Serilog**
 - **Hot Chocolate**
 - **Green Donut**
+
 In the testing sub-framework:
 - **TUnit**
 - **Bogus**
