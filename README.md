@@ -27,9 +27,12 @@ The C# of even 5 years ago would have been too inexpressive of a language for Av
 Language features that Avesta still feels a dire need for in C#:
 - Discriminated unions
 - [Associated types](https://github.com/dotnet/csharplang/discussions/8710)
-- Higher-kinded types
-- [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
+- [Higher-kinded polymorphism](https://github.com/dotnet/csharplang/issues/339)
+- [Covariance/contravariance for (immutable) structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 - [Negative generic constraints](https://github.com/dotnet/csharplang/discussions/707)
+- Variadic generics
+- Abstraction over enums (i.e. enums being able to implement interfaces)
+- Extension interfaces
 
 #### Library dependencies: 
 The most notable NuGet dependencies in Avesta, excluding client SDKs of the aforementioned pieces of infrastructure, include:
