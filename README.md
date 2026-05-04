@@ -70,10 +70,10 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 
 ## The result:
 Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Avesta manages to achieve numerous highly desired properties in back-end systems:
-- Transparent, out-of-the-box **near-linear horizontal scalability** — achieved by workload partitioning, elegant distributed coordination, load-balanced workqueue support, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- **Immediate auto-failover** and rebalancing when an Avestic app's nodes are shut down or spun up — by extension making the system **fault-tolerant** and **highly-available** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Automatic **load-balancing** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Full **location transparency** — there is no need for URL sharing (not only for messages, and request-replies) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Near-linear horizontal scalability**: Transparent, out-of-the-box — achieved by workload partitioning, elegant distributed coordination, load-balanced workqueue support, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **High availability and fault-tolerance:** Immediate auto-failover + rebalancing when an Avestic app's nodes are shut down or spun up <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Even load-balancing**: Automatic, and built into the core design <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Location transparency** — there is no need for URL sharing (not only for messages, and request-replies) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - End-to-end **type-safety** (across service boundaries, with versioning) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Purely **event-driven**/everything's real-time — "polling" is a sin in Avesta; everything, from read model updates, to the publishing of messages from the outbox happens "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Fully **event-sourced**, the only approach to persistence of business data that guarantees no data loss and thereby yields a maximally-rich data source, providing verifiably _exhaustive_ auditability.
