@@ -62,6 +62,7 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 - Native watch feature
 - Document database is most appropriate for an event store because events are highly polymorphic — and MongoDB is the most well-known, well-supported document-oriented database
 - No impedance mismatch/complex ORM overhead — the MongoDB driver is sufficient and supports complex querying
+
 Competitive advantages it provides in the context of Avesta:
 - Rich, lightweight watch feature means no broker in the middle, so minimal latency (unlike most architectures, which follow a DB-to-broker-to-application model — e.g. Debezium)
 - Partitioning for everything, rather than a single hot-standby replication worker; evenly dividing workload (unlike most CDC tools, like Debezium)
