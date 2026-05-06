@@ -64,9 +64,9 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 - No impedance mismatch/complex ORM overhead — the MongoDB driver is sufficient and supports complex querying
 
 Competitive advantages it provides in the context of Avesta:
-- Rich, lightweight watch feature means no broker in the middle, so minimal latency (unlike most architectures, which follow a DB-to-broker-to-application model — e.g. Debezium)
+- Rich, lightweight watch feature means no broker in the middle, so minimal latency (unlike most architectures, which follow a DB->application->broker->application model — e.g. Debezium)
 - Partitioning for everything, rather than a single hot-standby replication worker; evenly dividing workload (unlike most CDC tools, like Debezium)
-- Schema-on-read (which is what traditional SQL databases are) is better than schema-on-write (so-called "schemaless") for high availability
+- Schema-on-read (so-called "schemaless") is better than schema-on-write (which is what traditional SQL databases are) for high availability
 Avesta's persistence mechanism, fundamentally, is such that it has no relational needs.
 
 ### Why Redis:
