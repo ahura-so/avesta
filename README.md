@@ -97,7 +97,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Meticulous and bullet-proof handling of **concurrency** at all levels, with _automatic retries_ wherever applicable <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Efficient **MessagePack-based** (de)serialization — isolated serialization per service <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Uniform use of **value objects** (a.k.a. branded types, newtypes, fresh types), enhancing type-safety, and making "invalid states unrepresentable". <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Causality-aware timestamping mechanism using Lamport-style logical clocks, making the system resilient against wall-clock skew and drift  
+- Causality-aware timestamping mechanism using [Hybrid Logical Clocks (HLC)](https://cse.buffalo.edu/tech-reports/2014-04.pdf), making the system resilient against wall-clock skew and drift  
 - Deep, built-in **extensibility** support, through a wide variety of _hooks_ <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Request-reply **resilience** capabilities
 - Targeted, conditional **configuration mechanism** with **hot-reload**
