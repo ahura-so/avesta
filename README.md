@@ -1,4 +1,4 @@
-![Avesta Banner](https://raw.githubusercontent.com/ahura-so/zurvan/main/Avesta/banner.svg)
+![Avesta Banner](https://github.com/ahura-so/zurvan/blob/main/Avesta/banner.svg)
 
 # Avesta: Next-generation, all-in-one, cloud-native back-end framework.
 
